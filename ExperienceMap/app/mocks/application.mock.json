@@ -1,0 +1,114 @@
+{
+    "application": {
+        "personas": [{
+            "id": "P-0",
+            "info": {
+                "avatar": "",
+                "displayName": "Ramiro 1",
+                "ocupation": "",
+                "nationality": "",
+                "age": "",
+                "maritalStatus": "",
+                "quote": "",
+                "description": ""
+            }
+        }, {
+            "id": "P-1",
+            "info": {
+                "avatar": "",
+                "displayName": "Ramiro 2",
+                "ocupation": "",
+                "nationality": "",
+                "age": "",
+                "maritalStatus": "",
+                "quote": "",
+                "description": ""
+            }
+        }],
+        "projects": [{
+            "id": "PJ-0",
+            "displayName": "My Primer Proyecto",
+        }],
+        "activityType": [{
+            "id": "AT-0",
+            "displayName": "Non linear - No time",
+            "icon": ""
+        }, {
+            "id": "AT-1",
+            "displayName": "Linear",
+            "icon": ""
+        }, {
+            "id": "AT-2",
+            "displayName": "Non linear - Time based",
+            "icon": ""
+        }],
+        "devices": [{
+            "id": "D-0",
+            "displayName": "Web Desktop",
+            "icon": ""
+        }, {
+            "id": "D-1",
+            "displayName": "Web Mobile",
+            "icon": ""
+        }, {
+            "id": "D-3",
+            "displayName": "Phone (Call Center)",
+            "icon": ""
+        }],
+        "moods": [{
+            "id": "M-0",
+            "displayName": "Happy",
+            "icon": "",
+            "value": ""
+        }, {
+            "id": "M-1",
+            "displayName": "",
+            "icon": "",
+            "value": ""
+        }, {
+            "id": "M-2",
+            "displayName": "",
+            "icon": "",
+            "value": ""
+        }, {
+            "id": "M-3",
+            "displayName": "",
+            "icon": "",
+            "value": ""
+        }]
+    },
+    "journeys": [{
+        "id": "J-0",
+        "project-ref": "PJ-0",
+        "displayName": "First Journey",
+        "stages": [{
+            "id": "S-0",
+            "displayName": "Stage 1",
+            "style": {
+                "color": "red"
+            }
+        }, {
+            "id": "S-1",
+            "displayName": "Stage 2",
+            "style": {
+                "color": "blue"
+            }
+        }],
+        "key-activities": {
+            "byStage": {
+                "S-0": {
+                    "displayName": "Activity One",
+                    "activityType": "AT-0",
+                    "description": "",
+                    "description-by-person": [{
+                        "persona-id": "P-0",
+                        "description": "Description 1"
+                    }, {
+                        "persona-id": "P-1",
+                        "description": "Description 2"
+                    }]
+                }
+            }
+        }
+    }]
+}
